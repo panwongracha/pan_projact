@@ -1,0 +1,77 @@
+{
+  "id": "a364b6c0-a824-4165-9230-930f5693e9f9",
+  "name": "Seated Back Extension",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/rueckenstrecken.webp?alt=media&token=a113666d-6ce1-4eeb-9e22-e61e5804871a"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการเล่น ✅\n\n1.การเตรียมตัว\n\nนั่งบนเครื่อง ฝ่าเท้าวางบนที่พัก เท้าวางเต็มกับพื้น/แท่นรอง\n\nปรับพนักพิงและเบาะรองให้พอดีกับสรีระ (พนักดันหลังควรอยู่ระดับกลางหลัง)\n\nจับมือที่ด้ามจับหรือวางแขนแนบอก\n\n2.การเริ่มต้น (Start Position)\n\nนั่งหลังตรง แนบกับเบาะ\n\nหายใจเข้า เตรียมพร้อม\n\n3.การดันกลับ (Extension Phase)\n\nใช้กล้ามเนื้อหลังดันพนักออกไปข้างหลังอย่างช้า ๆ\n\nหายใจออกระหว่างดัน\n\n4.การกลับสู่ตำแหน่งเริ่ม (Return Phase)\n\nค่อย ๆ ผ่อนแรง กลับมาที่ท่าเริ่มต้น\n\nคุมการเคลื่อนไหว ไม่ปล่อยให้เครื่องดีดกลับเร็วเกินไป"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️ \n\n1.อย่าใช้แรงเหวี่ยง ให้ควบคุมการเคลื่อนไหวตลอดเวลา\n\n2.อย่าแอ่นหลังเกินไป เพราะจะเพิ่มแรงกดที่กระดูกสันหลัง\n\n3.เลือกน้ำหนักที่พอดี หากหนักเกินไปอาจทำให้เสียฟอร์มหรือเจ็บหลัง\n\n4.หายใจให้ถูกต้อง หายใจออกขณะดัน และหายใจเข้าขณะกลับ"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Seated Back Extension"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Seated Back Extension",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2c456ea3-d000-46b7-ba16-0b6e690f904d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

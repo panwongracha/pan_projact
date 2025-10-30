@@ -1,0 +1,77 @@
+{
+  "id": "9938b5c5-1c71-4cd6-b4e8-73317d2a0c15",
+  "name": "ท่ายืดกล้ามเนื้ออก",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B8%AD%E0%B8%81.jpg?alt=media&token=8e9a31e4-18bd-4148-9933-95fd2c27db55"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "✅ วิธีทำท่า Chest Stretch with Wall\n\n1.ยืนข้างกำแพงหรือเสา แขนข้างที่ใกล้กำแพงยกขึ้นระดับไหล่ งอศอก 90° แนบปลายแขนกับกำแพง (เหมือนในภาพ)\n\n2.ฝ่ามือและข้อศอกแตะผนังไว้มั่นคง\n\n3.ค่อย ๆ หมุนตัวออกจากกำแพงช้า ๆ จะรู้สึกตึงบริเวณหน้าอกและหัวไหล่ด้านหน้า\n\n4.ค้างไว้ 15–30 วินาที แล้วผ่อนกลับ\n\n5.ทำซ้ำอีกข้างเพื่อความสมดุล"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "⚠️ ข้อควรระวัง\n\n1.อย่าบิดตัวเร็วเกินไป : ควรหมุนตัวอย่างช้า ๆ เพื่อป้องกันการดึงรั้งหัวไหล่\n\n2.ระดับศอกต้องพอดี : ศอกควรอยู่ในแนวเดียวกับหัวไหล่ (งอ 90°) ไม่สูงหรือต่ำเกินไป\n\n3.อย่าเกร็งคอ : ปล่อยคอและไหล่ให้ผ่อนคลาย\n\n4.ไม่ฝืนความตึง : ถ้ารู้สึกเจ็บ (ไม่ใช่แค่ตึง) ให้หยุดทันที\n\n5.เหมาะกับการยืดหลังเล่นเวทที่ใช้หน้าอก เช่น bench press, push up, chest fly"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ท่ายืดหน้าอก"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่ายืดอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8faf3cfb-d80f-41f1-8062-915812d33550",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

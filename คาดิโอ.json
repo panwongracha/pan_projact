@@ -1,0 +1,353 @@
+{
+  "id": "dea383ee-f405-4647-8de7-f067f78ac9c5",
+  "name": "คาดิโอ",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "custom_payload",
+          "platform": "line",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "flex",
+              "contents": {
+                "type": "carousel",
+                "contents": [
+                  {
+                    "hero": {
+                      "size": "full",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD11.jpg?alt=media&token=1788dc1c-9c76-4b74-93a9-c14e79d9315c",
+                      "aspectRatio": "20:13",
+                      "aspectMode": "cover",
+                      "type": "image"
+                    },
+                    "body": {
+                      "type": "box",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "Elliptical cross trainer",
+                          "weight": "bold",
+                          "size": "xl"
+                        },
+                        {
+                          "text": "เครื่องคาดิโอ",
+                          "color": "#666666",
+                          "wrap": true,
+                          "type": "text",
+                          "size": "sm"
+                        }
+                      ],
+                      "layout": "vertical"
+                    },
+                    "type": "bubble",
+                    "footer": {
+                      "spacing": "sm",
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "action": {
+                            "text": "Elliptical cross trainer",
+                            "type": "message",
+                            "label": "วิธีการฝึก"
+                          },
+                          "type": "button",
+                          "style": "primary"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "hero": {
+                      "aspectMode": "cover",
+                      "aspectRatio": "20:13",
+                      "type": "image",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD2.webp?alt=media&token=dd9fd3bc-8962-4734-a770-446e512be9ef",
+                      "size": "full"
+                    },
+                    "body": {
+                      "contents": [
+                        {
+                          "weight": "bold",
+                          "size": "xl",
+                          "text": "Upright Stationary Bike ",
+                          "type": "text"
+                        },
+                        {
+                          "color": "#666666",
+                          "wrap": true,
+                          "text": "เครื่องคาดิโอ",
+                          "size": "sm",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical"
+                    },
+                    "footer": {
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "action": {
+                            "label": "วิธีการฝึก",
+                            "text": "Upright Stationary Bike",
+                            "type": "message"
+                          },
+                          "type": "button"
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical",
+                      "spacing": "sm"
+                    },
+                    "type": "bubble"
+                  },
+                  {
+                    "type": "bubble",
+                    "footer": {
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "action": {
+                            "type": "message",
+                            "label": "วิธีการฝึก",
+                            "text": "INDOOR CYCLE IC1"
+                          },
+                          "type": "button",
+                          "style": "primary"
+                        }
+                      ],
+                      "layout": "vertical",
+                      "type": "box"
+                    },
+                    "hero": {
+                      "type": "image",
+                      "aspectMode": "cover",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD3.jpg?alt=media&token=42248fd3-db13-4918-b6f9-8e6592b7c6c2",
+                      "aspectRatio": "20:13",
+                      "size": "full"
+                    },
+                    "body": {
+                      "type": "box",
+                      "contents": [
+                        {
+                          "size": "xl",
+                          "text": "INDOOR CYCLE IC1",
+                          "type": "text",
+                          "weight": "bold"
+                        },
+                        {
+                          "text": "เครื่องคาดิโอ",
+                          "size": "sm",
+                          "color": "#666666",
+                          "type": "text",
+                          "wrap": true
+                        }
+                      ],
+                      "layout": "vertical"
+                    }
+                  },
+                  {
+                    "hero": {
+                      "size": "full",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD4.jpg?alt=media&token=33003fa6-adbc-4bdb-9cb1-34ee30393cc5",
+                      "type": "image",
+                      "aspectMode": "cover",
+                      "aspectRatio": "20:13"
+                    },
+                    "type": "bubble",
+                    "body": {
+                      "type": "box",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "weight": "bold",
+                          "text": "Upright Exercise Bike",
+                          "size": "xl"
+                        },
+                        {
+                          "text": "เครื่องคาดิโอ",
+                          "size": "sm",
+                          "color": "#666666",
+                          "wrap": true,
+                          "type": "text"
+                        }
+                      ],
+                      "layout": "vertical"
+                    },
+                    "footer": {
+                      "type": "box",
+                      "contents": [
+                        {
+                          "type": "button",
+                          "style": "primary",
+                          "action": {
+                            "label": "วิธีการฝึก",
+                            "type": "message",
+                            "text": "Upright Exercise Bike"
+                          }
+                        }
+                      ],
+                      "spacing": "sm",
+                      "layout": "vertical"
+                    }
+                  },
+                  {
+                    "type": "bubble",
+                    "footer": {
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "action": {
+                            "text": "Rowing",
+                            "type": "message",
+                            "label": "วิธีการฝึก"
+                          },
+                          "style": "primary",
+                          "type": "button"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "type": "box"
+                    },
+                    "body": {
+                      "contents": [
+                        {
+                          "text": "Rowing ",
+                          "size": "xl",
+                          "type": "text",
+                          "weight": "bold"
+                        },
+                        {
+                          "color": "#666666",
+                          "type": "text",
+                          "size": "sm",
+                          "text": "เครื่องคาดิโอ",
+                          "wrap": true
+                        }
+                      ],
+                      "layout": "vertical",
+                      "type": "box"
+                    },
+                    "hero": {
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD5.jpg?alt=media&token=263d6a37-f429-4832-ab8b-ff9c34371fcc",
+                      "aspectMode": "cover",
+                      "aspectRatio": "20:13",
+                      "type": "image",
+                      "size": "full"
+                    }
+                  },
+                  {
+                    "type": "bubble",
+                    "body": {
+                      "type": "box",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "size": "xl",
+                          "text": "Treadmill",
+                          "weight": "bold"
+                        },
+                        {
+                          "color": "#666666",
+                          "wrap": true,
+                          "text": "เครื่องคาดิโอ",
+                          "size": "sm",
+                          "type": "text"
+                        }
+                      ],
+                      "layout": "vertical"
+                    },
+                    "hero": {
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD6.jpg?alt=media&token=5de9a02a-c2c0-408b-9ac3-0540031da0b6",
+                      "type": "image",
+                      "size": "full",
+                      "aspectMode": "cover",
+                      "aspectRatio": "20:13"
+                    },
+                    "footer": {
+                      "spacing": "sm",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "type": "button",
+                          "action": {
+                            "label": "วิธีการฝึก",
+                            "type": "message",
+                            "text": "Treadmill"
+                          }
+                        }
+                      ],
+                      "type": "box"
+                    }
+                  }
+                ]
+              },
+              "altText": "เครื่องคาดิโอ"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "เครื่องคาดิโอ ทั้งหมด"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Cardio",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6a2ce806-239c-4fdf-b749-5cdd178ee1c3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "คาดิโอ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aa63799f-6d02-4ce6-bc80-d67afabc4fa1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

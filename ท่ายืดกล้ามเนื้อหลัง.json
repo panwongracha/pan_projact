@@ -1,0 +1,77 @@
+{
+  "id": "7c111bfe-4696-446b-b878-8ef543bda978",
+  "name": "ท่ายืดกล้ามเนื้อหลัง",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87.jpg?alt=media&token=f1274f53-a6b2-4891-9f84-2b8121f3b2df"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "✅ วิธีทำท่า Seated Side Stretch\n\nนั่งบนเก้าอี้หรือนั่งบนม้านั่ง หลังตรง เท้าวางเต็มพื้น\n\nยกแขนข้างหนึ่งขึ้นเหนือศีรษะ เหยียดตรง\n\nค่อย ๆ เอนไปด้านตรงข้าม ให้ลำตัวด้านข้างรู้สึกตึง (เช่น ยกแขนขวา → เอนไปทางซ้าย)\n\nค้างไว้ 15–30 วินาที\n\nกลับสู่ท่าเริ่มต้น และสลับทำอีกข้าง\n\nทำซ้ำข้างละ 2–3 รอบ"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "⚠️ ข้อควรระวัง\n\nนั่งหลังตรง : อย่าห่อหลังหรือก้มตัวไปข้างหน้า\n\nไม่กดบ่าหรือเกร็งคอ : ให้ผ่อนคลายหัวไหล่\n\nอย่าเอนเกินขอบเขต : ควรเอนพอให้รู้สึกตึง ไม่ฝืนจนเจ็บ\n\nหายใจปกติ : หายใจเข้า–ออกสม่ำเสมอ อย่ากลั้นหายใจ\n\nถ้ามี อาการปวดหลังหรือหมอนรองกระดูกทับเส้น ควรทำอย่างระมัดระวังหรือปรึกษาผู้เชี่ยวชาญ"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ท่ายืดหลัง"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่ายืดหลัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8ba82998-fbdc-4688-9b33-3bef0f0a8ea8",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

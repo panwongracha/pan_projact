@@ -1,0 +1,77 @@
+{
+  "id": "9d02dbc5-130b-4e3a-a0c5-a806be285cf8",
+  "name": "One Arm Dumbbell Row",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/rudern-kurzhantel.webp?alt=media&token=95214148-b94f-4aaf-863f-0f7fe465403a"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการเล่น✅\n\n1.การเตรียมตัว\n\nวางเข่าและมือข้างหนึ่งบนม้านั่งราบ (Flat Bench)\n\nมืออีกข้างถือดัมเบล ปล่อยแขนตรงลงไปด้านล่าง\n\nหลังตรง ศีรษะอยู่ในแนวเดียวกับกระดูกสันหลัง\n\n2.การดึงดัมเบลขึ้น (Row Phase)\n\nหายใจออก พร้อมดึงดัมเบลขึ้นโดยงอศอก\n\nศอกเคลื่อนไปด้านหลังใกล้ลำตัว (ไม่กางออก)\n\nดึงขึ้นจนดัมเบลอยู่ระดับลำตัว หรือใกล้เอว\n\n3.การลดดัมเบลลง (Lowering Phase)\n\nหายใจเข้า แล้วค่อย ๆ ลดดัมเบลลงอย่างช้า ๆ\n\nเหยียดแขนเกือบสุด แต่ไม่ล็อกข้อศอก"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.อย่าโก่งหลังหรือแอ่นหลังมากเกินไป ควรรักษาหลังให้ตรงตลอดเวลา\n\n2.อย่าใช้แรงเหวี่ยงดัมเบล ควรใช้กล้ามเนื้อหลังควบคุมการดึง\n\n3.อย่ากางศอกออกข้าง เพราะจะทำให้แรงไปเน้นที่ไหล่มากกว่าหลัง\n\n4.เลือกน้ำหนักที่เหมาะสม ถ้าหนักเกินไปจะเสียฟอร์มและเสี่ยงบาดเจ็บ\n\n5.อย่าเร่งรีบ ควรโฟกัสที่การหดตัวของกล้ามเนื้อหลัง"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "One Arm Dumbbell Row"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "One Arm Dumbbell Row",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2cbb7ea1-843e-4a67-b6f3-94cf4695ddac",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

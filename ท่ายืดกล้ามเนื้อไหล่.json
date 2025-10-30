@@ -1,0 +1,77 @@
+{
+  "id": "4d2703b6-4366-45ce-851f-f176d397884d",
+  "name": "ท่ายืดกล้ามเนื้อไหล่",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88.jpg?alt=media&token=1bd3c046-0c10-4bcb-ab42-bbeaf6ee0843"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "✅ วิธีทำท่า Triceps & Shoulder Stretch\n\n1.ยืนตัวตรง แยกเท้าเล็กน้อยให้มั่นคง\n\n2.ยกแขนข้างหนึ่งขึ้นเหนือศีรษะ งอศอก แล้ววางมือแตะบริเวณกลางหลัง (เหมือนจะเกาหลัง)\n\n3.ใช้มืออีกข้างจับข้อศอกแล้ว ดึงข้อศอกเข้าหาศีรษะ อย่างช้า ๆ\n\n4.รู้สึกตึงบริเวณด้านหลังต้นแขน (triceps) และหัวไหล่\n\n5.ค้างไว้ 15–30 วินาที แล้วสลับแขนอีกข้าง\n\n6.ทำซ้ำ 2–3 รอบต่อข้าง"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "⚠️ ข้อควรระวัง\n\n1.อย่าดึงแรงเกินไป : ควรดึงพอให้ตึง ไม่ใช่เจ็บ\n\n2.หลังตรง ไม่แอ่นเอว : ระวังไม่เงยหน้าหรือแอ่นหลังมากเกินไป เพราะจะทำให้ปวดหลังส่วนล่าง\n\n3.หายใจสม่ำเสมอ : อย่ากลั้นหายใจระหว่างยืด\n\n4.ถ้าไหล่หรือข้อศอกบาดเจ็บ ควรเลี่ยงหรือทำอย่างเบามือ"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ท่ายืดไหล่"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่ายืดไหล่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8da8ddab-fcee-4885-b748-6b189127961b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

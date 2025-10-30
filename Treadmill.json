@@ -1,0 +1,77 @@
+{
+  "id": "605552ae-e6b3-4f5b-be4e-f599c145051e",
+  "name": "Treadmill",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD6.jpg?alt=media&token=5de9a02a-c2c0-408b-9ac3-0540031da0b6"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการใช้ Treadmill✅\n\n1.การเตรียมตัว\n\nใส่รองเท้ากีฬาแบบซัพพอร์ตข้อเท้า\n\nยืนขึ้นบนขอบลู่วิ่ง (ไม่เหยียบบนสายพานทันที)\n\nเปิดเครื่องแล้วเริ่มจาก ความเร็วต่ำ ก่อน จากนั้นค่อยก้าวขึ้นไปบนสายพาน\n\n2.การวิ่ง/เดิน\n\nเริ่มจาก เดินช้า ๆ 3–5 นาที เพื่อวอร์มอัพ\n\nเพิ่มความเร็วทีละน้อยตามเป้าหมาย (เดินเร็ว / จ็อกกิ้ง / วิ่ง)\n\nถ้าเครื่องมี Incline (ความชัน) ควรปรับทีละน้อยเพื่อจำลองการขึ้นเขา\n\nรักษาท่าทาง:\n\nศีรษะตั้งตรง มองไปข้างหน้า\n\nหลังตรง ไม่ก้ม ไม่เงย\n\nแกว่งแขนตามธรรมชาติ ไม่เกาะที่จับตลอดเวลา (เว้นแต่เพื่อความปลอดภัยตอนปรับความเร็วหรือเหนื่อยมาก ๆ)\n\nควบคุมก้าววิ่งให้สม่ำเสมอ ไม่กระแทกแรง\n\n3.การจบการออกกำลังกาย\n\nค่อย ๆ ลดความเร็วลงจนเหลือเดินช้า ๆ ประมาณ 3–5 นาที\n\nหยุดเครื่องแล้วก้าวลงจากลู่วิ่งทางด้านข้าง\n\nยืดเหยียดกล้ามเนื้อขาและสะโพกหลังการใช้งาน"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.ไม่กระโดดขึ้น–ลงสายพาน ขณะกำลังหมุน\n\n2.ไม่ใช้ความเร็วสูงทันที ควรไล่ระดับเพื่อป้องกันการหกล้มและบาดเจ็บ\n\n3.อย่าก้าวยาวเกินไป เพราะเสี่ยงบาดเจ็บเอ็นร้อยหวายหรือเข่า\n\n4.ใช้สายเซฟตี้คีย์ (Safety Key/Clip) ติดที่เสื้อไว้เสมอ เผื่อต้องหยุดเครื่องฉุกเฉิน\n\n5.ไม่หันไปด้านข้าง/ข้างหลัง ระหว่างวิ่ง เพราะอาจเสียการทรงตัว\n\n6.หลีกเลี่ยงการเกาะที่จับตลอดเวลา เพราะทำให้ท่าทางผิดและกล้ามเนื้อทำงานไม่เต็มที่\n\n7.ผู้ที่มีปัญหาหัวใจ ข้อเข่า หรือหลัง ควรปรึกษาแพทย์ก่อนใช้งาน"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Treadmill"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Treadmill",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "46355d1c-ca82-428a-a8d3-eecac24d999e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

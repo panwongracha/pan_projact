@@ -1,0 +1,77 @@
+{
+  "id": "62373a14-bb88-46f5-bc12-b112a8464c87",
+  "name": "ท่ายืดกล้ามเนื้อเเขน",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%B7%E0%B8%94%E0%B9%80%E0%B9%80%E0%B8%82%E0%B8%99.jpg?alt=media&token=7d4a34e5-c64f-40c6-9bc4-cc6d7a78a43a"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการทำท่านี้✅\n\n1.ยืดเหยียดกล้ามเนื้อท่อนแขนด้านบน (Extensor Stretch)\n\nยกแขนข้างหนึ่งไปข้างหน้า ระดับไหล่ ฝ่ามือหงายลง\n\nใช้อีกมือจับที่หลังฝ่ามือ แล้วกดเบา ๆ ลงและเข้าหาลำตัว\n\nรู้สึกตึงบริเวณท่อนแขนด้านบน (ด้านนอก)\n\nค้างไว้ 15–30 วินาที\n\n2.ยืดเหยียดกล้ามเนื้อท่อนแขนด้านล่าง (Flexor Stretch)\n\nยกแขนข้างหนึ่งไปข้างหน้า ระดับไหล่ ฝ่ามือหงายขึ้น\n\nใช้อีกมือจับที่ปลายนิ้วแล้วดึงเบา ๆ ลงไปทางพื้น\n\nรู้สึกตึงบริเวณท่อนแขนด้านล่าง (ด้านใน)\n\nค้างไว้ 15–30 วินาที\n\n3.ทำซ้ำสลับทั้งสองข้าง 2–3 รอบ"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\nอย่าดึงหรือกดแรงเกินไป ควรยืดจนรู้สึกตึงแต่ไม่เจ็บ\n\nหลังตรง ไม่เกร็งหัวไหล่หรือก้มหลัง\n\nหากมีอาการเจ็บข้อมือ อักเสบ หรือเพิ่งบาดเจ็บ ควรเลี่ยงท่านี้หรือทำแบบเบามาก ๆ\n\nไม่ควรสะบัดมือแรง ๆ หลังยืด เพราะอาจทำให้เส้นเอ็นบาดเจ็บ"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ท่ายืดเเขน"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่ายืดเเขน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55c6d116-5bf8-4447-8153-2e7142de3fad",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

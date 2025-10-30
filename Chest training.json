@@ -1,0 +1,279 @@
+{
+  "id": "cd586153-a28d-420c-9744-037255c2b077",
+  "name": "Chest training",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ท่าฝึกกล้ามเนื้อหน้าอก ทั้งหมด"
+          ]
+        },
+        {
+          "type": "custom_payload",
+          "platform": "line",
+          "condition": "",
+          "payload": {
+            "line": {
+              "altText": "กล้ามเนื้ออก",
+              "type": "flex",
+              "contents": {
+                "contents": [
+                  {
+                    "body": {
+                      "contents": [
+                        {
+                          "weight": "bold",
+                          "text": "Incline Dumbbell Press",
+                          "type": "text",
+                          "size": "xl"
+                        },
+                        {
+                          "color": "#666666",
+                          "text": "กล้ามเนื้ออก",
+                          "type": "text",
+                          "wrap": true,
+                          "size": "sm"
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical"
+                    },
+                    "footer": {
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "action": {
+                            "text": "Incline Dumbbell Press",
+                            "label": "วิธีฝึก",
+                            "type": "message"
+                          },
+                          "type": "button"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "type": "box"
+                    },
+                    "type": "bubble",
+                    "hero": {
+                      "type": "image",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/bankdruecken-kurzhantel-schraeg.webp?alt=media&token=b2904834-3e26-470c-9ca9-9eab10c85ee5",
+                      "aspectRatio": "20:13",
+                      "size": "full",
+                      "aspectMode": "cover"
+                    }
+                  },
+                  {
+                    "footer": {
+                      "layout": "vertical",
+                      "type": "box",
+                      "contents": [
+                        {
+                          "type": "button",
+                          "action": {
+                            "text": "Dumbbell Bench Press",
+                            "label": "วิธีฝึก",
+                            "type": "message"
+                          },
+                          "style": "primary"
+                        }
+                      ],
+                      "spacing": "sm"
+                    },
+                    "body": {
+                      "layout": "vertical",
+                      "type": "box",
+                      "contents": [
+                        {
+                          "size": "xl",
+                          "weight": "bold",
+                          "type": "text",
+                          "text": "Dumbbell Bench Press"
+                        },
+                        {
+                          "type": "text",
+                          "size": "sm",
+                          "text": "กล้ามเนื้ออก",
+                          "wrap": true,
+                          "color": "#666666"
+                        }
+                      ]
+                    },
+                    "hero": {
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87.webp?alt=media&token=7deccc50-c6dd-4611-9622-b215f2418f93",
+                      "type": "image",
+                      "size": "full",
+                      "aspectMode": "cover",
+                      "aspectRatio": "20:13"
+                    },
+                    "type": "bubble"
+                  },
+                  {
+                    "type": "bubble",
+                    "footer": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "type": "button",
+                          "action": {
+                            "type": "message",
+                            "label": "วิธีฝึก",
+                            "text": "Dips"
+                          }
+                        }
+                      ],
+                      "spacing": "sm"
+                    },
+                    "hero": {
+                      "aspectMode": "cover",
+                      "size": "full",
+                      "type": "image",
+                      "aspectRatio": "20:13",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%A5%E0%B9%88%E0%B8%B2%E0%B8%87.webp?alt=media&token=2f3414ee-1079-493b-8fb3-79ca4f948457"
+                    },
+                    "body": {
+                      "contents": [
+                        {
+                          "type": "text",
+                          "size": "xl",
+                          "text": "Dips",
+                          "weight": "bold"
+                        },
+                        {
+                          "size": "sm",
+                          "color": "#666666",
+                          "type": "text",
+                          "text": "กล้ามเนื้ออก",
+                          "wrap": true
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical"
+                    }
+                  }
+                ],
+                "type": "carousel"
+              }
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หน้าอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "27422710-3e22-45d6-8f44-dca6288b62b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ส่วนอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b605a925-9d65-4b5a-828b-c95c5c0687f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "วันนี้เล่นอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b70de698-a536-40e2-a5b6-0a41d3e75cee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "อก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8483076b-2b16-4fa8-9719-be40367f53bd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "มีท่าเล่นอกอะไรบ้าง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eb595d02-f3a0-4c7f-a25e-ffab7a358353",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าเล่นอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "521f84b6-dee3-4dbd-a325-de91584c4746",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เล่นอก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7954b4a7-3f0c-4e62-93f4-048018af6d04",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

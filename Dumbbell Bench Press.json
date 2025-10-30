@@ -1,0 +1,77 @@
+{
+  "id": "298d8a63-9a31-463f-88ac-36abfcbcb35e",
+  "name": "Dumbbell Bench Press",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87.webp?alt=media&token=7deccc50-c6dd-4611-9622-b215f2418f93"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการเล่น ✅\n\n1.การเตรียมตัว\n\nนั่งบนม้านั่งราบ (Flat Bench) ถือดัมเบลไว้ที่ต้นขา\n\nใช้แรงจากต้นขาดันดัมเบลขึ้น ขณะเอนตัวนอนหงายบนม้านั่ง\n\n2.ตำแหน่งเริ่มต้น\n\nดัมเบลอยู่ข้างอก ระดับใกล้หัวนม\n\nฝ่ามือหันไปข้างหน้า (หรือเล็กน้อยแบบหันเข้าหากันก็ได้ ขึ้นกับความถนัด)\n\nเท้าวางเต็มพื้น หลังและศีรษะแนบม้านั่ง\n\n3.การกดดัมเบล (Press Phase)\n\nหายใจออก พร้อมดันดัมเบลขึ้นตรง ๆ จนแขนเกือบตึง\n\nรักษาแนวข้อมือให้อยู่เหนือข้อศอกตลอด\n\n4.การลดน้ำหนัก (Lowering Phase)\n\nหายใจเข้าแล้วค่อย ๆ ลดดัมเบลลงมาที่ระดับอก\n\nคุมการเคลื่อนไหว ไม่ปล่อยตกลงเร็ว"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.อย่าเหยียดแขนจนล็อกข้อศอก เพราะอาจทำให้บาดเจ็บ\n\n2.อย่าให้ดัมเบลชนกันแรง ๆ ด้านบน เพราะอาจเสียสมดุล\n\n3.อย่าปล่อยศอกกางออก 90° ควรทำมุมประมาณ 45–70° เพื่อลดแรงกดที่ไหล่\n\n4.รักษาหลังและก้นให้แนบม้านั่ง ไม่แอ่นจนเกินไป\n\n5.เลือกน้ำหนักที่ควบคุมได้ ถ้าหนักเกินไปอาจเสียฟอร์มหรือเสี่ยงตกใส่ตัว\n\n6.ควรมี Spotter ถ้าใช้ดัมเบลหนัก"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Dumbbell Bench Press"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Dumbbell Bench Press",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5b94923a-a0c1-4366-838d-a76c5d83d033",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

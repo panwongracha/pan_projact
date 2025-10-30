@@ -1,0 +1,77 @@
+{
+  "id": "af886dac-5fcb-429d-9183-358f7422e4f3",
+  "name": "Indoor Cycle IC1",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD3.jpg?alt=media&token=42248fd3-db13-4918-b6f9-8e6592b7c6c2"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการใช้เครื่อง Indoor Cycle IC1 (จักรยานสปินนิ่ง)✅\n\n1.การปรับอุปกรณ์ก่อนใช้งาน\n\nเบาะนั่ง (Saddle Height): ปรับให้สูงในระดับกระดูกสะโพก เวลาปั่นแล้วขาที่เหยียดต่ำสุดยังงอเล็กน้อย (ไม่ตึงตรงเกินไป)\n\nตำแหน่งเบาะหน้า–หลัง: เข่าควรอยู่ในแนวเดียวกับบันไดตอนปั่น (ไม่ล้ำไปด้านหน้าเกินไป)\n\nแฮนด์ (Handlebar): ปรับให้พอดีกับสรีระ ถ้าเป็นมือใหม่ควรตั้งสูงหน่อย เพื่อลดแรงกดที่หลังและเอว\n\n2.การปั่น\n\nนั่งบนเบาะ หลังตรง ไหล่ผ่อนคลาย\n\nจับแฮนด์ตามท่าที่เหมาะ (เช่น Seated Flat Ride จับใกล้ตัว, Standing Climb จับไกลออกไป)\n\nวางฝ่าเท้าเต็ม ๆ บนบันได (ใช้คลิปล็อครองเท้าจะช่วยให้มั่นคงขึ้น)\n\nปั่นด้วยจังหวะสม่ำเสมอ ใช้แรงจากต้นขา–สะโพก ไม่ดันด้วยเข่าอย่างเดียว\n\nควบคุมรอบปั่น (Cadence) ให้เหมาะกับเป้าหมาย (เช่น 60–80 RPM สำหรับการปั่นขึ้นเขา, 80–100 RPM สำหรับคาร์ดิโอ)\n\nปรับแรงต้าน (Resistance) ให้เหมาะ ไม่เบาจนปั่นฟรี หรือหนักจนฝืนเข่า\n\n3.การจบเซสชัน\n\nค่อย ๆ ลดแรงต้านและความเร็วลงทีละน้อย\n\nปั่นเบา ๆ ประมาณ 3–5 นาทีเพื่อคลายกล้ามเนื้อ\n\nยืดเหยียดกล้ามเนื้อขาและสะโพกหลังปั่นทุกครั้ง"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.ปรับเบาะไม่ถูกตำแหน่ง → เสี่ยงเจ็บเข่า, ปวดเอว, ปวดสะโพก\n\n2.จับแฮนด์แน่นเกินไป → ทำให้เมื่อยแขนและหัวไหล่ ควรจับพอดีเพื่อทรงตัว\n\n3.แรงต้านต่ำเกินไป → ปั่นเร็วแบบ “ฟรีขา” ทำให้เข่าได้รับแรงกระแทก\n\n4.แรงต้านสูงเกินไป → เสี่ยงเจ็บเข่าและสะโพก หากฝืนมากเกินไป\n\n5.ท่าลุกปั่น (Standing Ride) → ควรใช้แรงจากสะโพกและต้นขา ไม่โยกตัวแรงเกินไป เพราะอาจทำให้บาดเจ็บ\n\n6.ผู้ที่มีอาการปวดข้อหรือหลัง → ควรเริ่มเบา ๆ และปรึกษาผู้เชี่ยวชาญก่อน"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Indoor Cycle IC1"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Indoor Cycle IC1",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a83952e2-8065-40c3-bbf8-c69d6f130588",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

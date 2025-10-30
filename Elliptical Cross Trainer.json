@@ -1,0 +1,77 @@
+{
+  "id": "30965a17-353f-408f-ba94-18832b9fe18c",
+  "name": "Elliptical Cross Trainer",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD11.jpg?alt=media&token=1788dc1c-9c76-4b74-93a9-c14e79d9315c"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการใช้เครื่อง Elliptical Cross Trainer✅\n\n1.การเตรียมตัว\n\nปรับความสูงของที่จับและแรงต้าน (Resistance) ให้เหมาะกับร่างกาย\n\nยืนขึ้นบนแป้นเหยียบให้เต็มฝ่าเท้า ทั้งสองเท้าสมดุล\n\n2.การออกกำลังกาย\n\nจับที่จับ (Handle) ไว้ทั้งสองข้างเพื่อช่วยในการทรงตัว\n\nเริ่มเคลื่อนที่ด้วยการก้าวสลับไปข้างหน้า ลักษณะคล้ายการเดินหรือวิ่ง แต่เป็นการเคลื่อนไหวแบบวงรี (Elliptical Motion)\n\nใช้แรงจากทั้ง ขาและแขน โดยดึงและดันคันจับไปตามจังหวะการก้าว\n\nรักษาหลังให้ตรง เกร็งหน้าท้องเล็กน้อยเพื่อช่วยพยุง\n\nควบคุมจังหวะให้สม่ำเสมอ ไม่เร็วเกินไป\n\n3.การจบเซสชัน\n\nค่อย ๆ ลดความเร็วและแรงต้านก่อนหยุด\n\nยืดเหยียดกล้ามเนื้อขาและแขนหลังการใช้งาน"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️ \n\n1.ท่ายืน: อย่าโน้มตัวไปข้างหน้ามากเกินไป ควรยืนตรงเพื่อป้องกันอาการปวดหลัง\n\n2.การเหยียบ: อย่ายกส้นเท้า ให้ฝ่าเท้าแนบกับแป้นตลอดเวลาเพื่อป้องกันอาการเจ็บเข่า\n\n3.การจับที่จับ: อย่าบีบแน่นเกินไป จับพอดีเพื่อไม่ให้เมื่อยมือ\n\n4.ความเร็ว: ไม่ควรเร่งความเร็วทันที ควรเพิ่มทีละน้อย เพื่อป้องกันการบาดเจ็บ\n\n5.สุขภาพส่วนตัว: ผู้ที่มีอาการปวดเข่า ข้อเท้า หรือปัญหาหัวใจ ควรปรึกษาแพทย์ก่อนใช้งาน\n\n6.แรงต้าน: หากแรงต้านสูงเกินไป อาจทำให้ปวดเข่าและบาดเจ็บได้"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Elliptical Cross Trainer"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Elliptical Cross Trainer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc522566-885c-4bf2-a6d8-87b9a9ec135e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

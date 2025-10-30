@@ -1,0 +1,77 @@
+{
+  "id": "1499256e-9737-4720-9f3a-d3477017bb7d",
+  "name": "Rowing exercise bike",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD5.jpg?alt=media&token=263d6a37-f429-4832-ab8b-ff9c34371fcc"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการใช้งาน Rowing Exercise Bike✅\n\n1.การเตรียมท่า\n\nนั่งบนเบาะให้สบาย เท้าวางบนที่พักเท้าและรัดสายให้แน่น\n\nจับแฮนด์/ด้ามพายด้วยสองมือ แขนเหยียดไปข้างหน้า หลังตรง ไม่โก่ง\n\n2.การพาย (แบ่งเป็น 4 จังหวะ)\n\nCatch (จังหวะเริ่ม): นั่งงอเข่า ก้มตัวไปข้างหน้าเล็กน้อย แขนเหยียดตรง จับแฮนด์ไว้\n\nDrive (จังหวะดึง):\n\nดันตัวไปข้างหลังด้วยแรงจากขาเป็นหลัก\n\nเมื่อขาเกือบเหยียดสุด ให้เริ่มเอนตัวไปข้างหลังเล็กน้อย\n\nดึงแฮนด์เข้าหาหน้าท้อง ระดับลิ้นปี่\n\nFinish (จังหวะสุดท้าย): หลังตรง เอนเล็กน้อย แขนดึงชิดตัว ขาเหยียดตรง\n\nRecovery (จังหวะกลับ): เหยียดแขนออกก่อน จากนั้นโน้มตัวไปข้างหน้า แล้วงอเข่ากลับสู่ท่าเริ่ม\n\n3.การควบคุม\n\nจังหวะการพายควร ช้าไปเร็ว คือผ่อนกลับ (Recovery) ใช้เวลานานกว่าจังหวะดึง (Drive)\n\nรักษาจังหวะสม่ำเสมอ เช่น 1 ดึง : 2 กลับ"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\nหลังโก่ง: อย่าโค้งหลังตอนเอนหรือดึง เพราะเสี่ยงเจ็บหลัง ควรหลังตรงเสมอ\n\nใช้แขนอย่างเดียว: การพายที่ถูกต้องต้องเริ่มจาก ขา → หลัง → แขน ไม่ใช่ดึงแขนอย่างเดียว\n\nดันเข่าเร็วเกินไป: ถ้าเหยียดขาแรงเกินไป อาจทำให้เข่าและเอ็นบาดเจ็บ\n\nจับด้ามแน่นเกินไป: อาจทำให้เมื่อยข้อมือและแขน ควรจับหลวม ๆ แต่มั่นคง\n\nจังหวะผิด: ถ้าผ่อนกลับเร็วเกินไป ร่างกายจะล้าและเสียการควบคุม\n\nผู้ที่มีอาการปวดหลังส่วนล่างหรือเข่า: ควรปรับแรงต้านต่ำ ๆ และปรึกษาแพทย์ก่อน"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Rowing exercise bike"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Rowing bike",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "89af0b1b-aed1-4994-8ee2-81d8f9af8319",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

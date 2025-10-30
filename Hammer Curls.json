@@ -1,0 +1,77 @@
+{
+  "id": "4991098e-f159-4db8-a525-a7f5160f6bcb",
+  "name": "Hammer Curls",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B9%80%E0%B9%80%E0%B8%82%E0%B8%992.webp?alt=media&token=106dacbe-9dec-43dc-8c0b-e2c5b6d65502"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการฝึก Hammer Curls✅\n\n1.ท่าเริ่มต้น\n\nยืนตัวตรง เท้ากว้างประมาณหัวไหล่\n\nถือดัมบbell์ไว้ข้างลำตัวทั้งสองข้าง โดยให้หงายมือเข้าหาลำตัว (จับแบบ neutral grip)\n\nหลังตรง เกร็งหน้าท้องเล็กน้อย\n\n2.การเคลื่อนไหว\n\nค่อย ๆ งอศอก ยกดัมบbell์ขึ้นมาด้านหน้า โดยให้ฝ่ามือหันเข้าหากันตลอดเวลา\n\nยกจนดัมบbell์อยู่ในระดับหัวไหล่หรือเกือบสุดการหดของกล้ามเนื้อ\n\nค่อย ๆ ลดดัมบbell์ลงกลับสู่ตำแหน่งเริ่มต้นอย่างช้า ๆ"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.อย่า แกว่งแขน หรือใช้แรงเหวี่ยงจากลำตัว ให้ใช้เฉพาะแรงจากกล้ามเนื้อแขน\n\n2.ศอกต้องแนบข้างลำตัว ไม่กางออก\n\n3.อย่า ล็อกข้อศอก ตอนเหยียดแขนสุด เพื่อป้องกันอาการบาดเจ็บ\n\n4.เลือกน้ำหนักดัมบbellที่ พอดี ไม่หนักจนทำให้เสียฟอร์ม\n\n5.รักษา หลังตรง ตลอดการฝึก ไม่แอ่นหลัง"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hammer Curls"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hammer",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "809a768f-f0e1-4ec5-a4d2-0ee120b299f0",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

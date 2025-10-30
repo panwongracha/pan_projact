@@ -1,0 +1,206 @@
+{
+  "id": "4e987fef-5c9e-450b-b879-626f665497eb",
+  "name": "Biceps training ,Triceps training",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "custom_payload",
+          "platform": "line",
+          "condition": "",
+          "payload": {
+            "line": {
+              "contents": {
+                "type": "carousel",
+                "contents": [
+                  {
+                    "footer": {
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "action": {
+                            "text": "Biceps Curls",
+                            "label": "วิธีฝึก",
+                            "type": "message"
+                          },
+                          "style": "primary",
+                          "type": "button"
+                        }
+                      ],
+                      "type": "box",
+                      "spacing": "sm"
+                    },
+                    "hero": {
+                      "aspectMode": "cover",
+                      "aspectRatio": "20:13",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B9%80%E0%B9%80%E0%B8%82%E0%B8%991.webp?alt=media&token=e791d7c4-e48d-46a7-835e-d62251bedd59",
+                      "type": "image",
+                      "size": "full"
+                    },
+                    "body": {
+                      "contents": [
+                        {
+                          "weight": "bold",
+                          "size": "xl",
+                          "type": "text",
+                          "text": "Biceps Curls"
+                        },
+                        {
+                          "size": "sm",
+                          "type": "text",
+                          "wrap": true,
+                          "text": "กล้ามเนื้อเเขน",
+                          "color": "#666666"
+                        }
+                      ],
+                      "layout": "vertical",
+                      "type": "box"
+                    },
+                    "type": "bubble"
+                  },
+                  {
+                    "type": "bubble",
+                    "hero": {
+                      "type": "image",
+                      "aspectRatio": "20:13",
+                      "aspectMode": "cover",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B9%80%E0%B9%80%E0%B8%82%E0%B8%992.webp?alt=media&token=106dacbe-9dec-43dc-8c0b-e2c5b6d65502",
+                      "size": "full"
+                    },
+                    "body": {
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "size": "xl",
+                          "text": "Hammer Curls",
+                          "weight": "bold"
+                        },
+                        {
+                          "wrap": true,
+                          "type": "text",
+                          "size": "sm",
+                          "color": "#666666",
+                          "text": "กล้ามเนื้อเเขน"
+                        }
+                      ],
+                      "type": "box"
+                    },
+                    "footer": {
+                      "layout": "vertical",
+                      "spacing": "sm",
+                      "type": "box",
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "action": {
+                            "text": "Hammer Curls",
+                            "label": "วิธีฝึก",
+                            "type": "message"
+                          },
+                          "type": "button"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "bubble",
+                    "hero": {
+                      "size": "full",
+                      "aspectRatio": "20:13",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B9%80%E0%B9%80%E0%B8%82%E0%B8%993.webp?alt=media&token=cb1e7e46-02fe-4970-b323-7d22d9c688ec",
+                      "aspectMode": "cover",
+                      "type": "image"
+                    },
+                    "footer": {
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "type": "button",
+                          "action": {
+                            "label": "วิธีฝึก",
+                            "text": "Preacher Curls",
+                            "type": "message"
+                          }
+                        }
+                      ],
+                      "spacing": "sm",
+                      "layout": "vertical",
+                      "type": "box"
+                    },
+                    "body": {
+                      "contents": [
+                        {
+                          "text": "Preacher Curls",
+                          "size": "xl",
+                          "type": "text",
+                          "weight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "color": "#666666",
+                          "wrap": true,
+                          "size": "sm",
+                          "text": "กล้ามเนื้อเเขน"
+                        }
+                      ],
+                      "layout": "vertical",
+                      "type": "box"
+                    }
+                  }
+                ]
+              },
+              "altText": "กล้ามเนื้อเเขน",
+              "type": "flex"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ท่าฝึกกล้ามเนื้อ เเขนทั้งหมด"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเขน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "499367b0-3e4b-446e-91e6-e76063914207",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

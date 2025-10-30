@@ -1,0 +1,320 @@
+{
+  "id": "ab3139a0-0d5a-46a4-9249-7d27d7c91517",
+  "name": "Butt training",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ท่าฝึกกล้ามเนื้อขา ทั้งหมด"
+          ]
+        },
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://training.fit/wp-content/uploads/2020/03/kniebeugen-langhantel.png"
+        },
+        {
+          "type": "custom_payload",
+          "platform": "line",
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "flex",
+              "contents": {
+                "contents": [
+                  {
+                    "type": "bubble",
+                    "hero": {
+                      "aspectRatio": "20:13",
+                      "aspectMode": "cover",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%82%E0%B8%B2.webp?alt=media&token=1e8fff53-fc83-45b5-9c05-96b391134693",
+                      "size": "full",
+                      "type": "image"
+                    },
+                    "footer": {
+                      "contents": [
+                        {
+                          "type": "button",
+                          "action": {
+                            "type": "message",
+                            "text": "Barbell Squats",
+                            "label": "วิธีฝึก"
+                          },
+                          "style": "primary"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "layout": "vertical",
+                      "type": "box"
+                    },
+                    "body": {
+                      "contents": [
+                        {
+                          "weight": "bold",
+                          "text": "Barbell Squats",
+                          "size": "xl",
+                          "type": "text"
+                        },
+                        {
+                          "size": "sm",
+                          "type": "text",
+                          "color": "#666666",
+                          "wrap": true,
+                          "text": "กล้ามเนื้อขา"
+                        }
+                      ],
+                      "layout": "vertical",
+                      "type": "box"
+                    }
+                  },
+                  {
+                    "hero": {
+                      "size": "full",
+                      "aspectMode": "cover",
+                      "aspectRatio": "20:13",
+                      "type": "image",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/deadlift-kreuzheben.webp?alt=media&token=99c8ddc0-6a7e-441b-bc32-d1a6e4eaff4a"
+                    },
+                    "body": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "size": "xl",
+                          "text": "Deadlift",
+                          "type": "text",
+                          "weight": "bold"
+                        },
+                        {
+                          "text": "กล้ามเนื้อขา",
+                          "color": "#666666",
+                          "type": "text",
+                          "wrap": true,
+                          "size": "sm"
+                        }
+                      ]
+                    },
+                    "type": "bubble",
+                    "footer": {
+                      "contents": [
+                        {
+                          "type": "button",
+                          "action": {
+                            "text": "Deadlift",
+                            "label": "วิธีฝึก",
+                            "type": "message"
+                          },
+                          "style": "primary"
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical",
+                      "spacing": "sm"
+                    }
+                  },
+                  {
+                    "body": {
+                      "layout": "vertical",
+                      "type": "box",
+                      "contents": [
+                        {
+                          "weight": "bold",
+                          "text": "Dumbbell Lunges",
+                          "size": "xl",
+                          "type": "text"
+                        },
+                        {
+                          "color": "#666666",
+                          "text": "กล้ามเนื้อขา",
+                          "type": "text",
+                          "size": "sm",
+                          "wrap": true
+                        }
+                      ]
+                    },
+                    "footer": {
+                      "layout": "vertical",
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "type": "button",
+                          "style": "primary",
+                          "action": {
+                            "type": "message",
+                            "text": "Dumbbell Lunges",
+                            "label": "วิธีฝึก"
+                          }
+                        }
+                      ],
+                      "type": "box"
+                    },
+                    "type": "bubble",
+                    "hero": {
+                      "aspectMode": "cover",
+                      "type": "image",
+                      "aspectRatio": "20:13",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%82%E0%B8%B22.webp?alt=media&token=9bd529b9-29ae-4c07-8298-4d9f7e5ecff8",
+                      "size": "full"
+                    }
+                  }
+                ],
+                "type": "carousel"
+              },
+              "altText": "กล้ามเนื้อขา"
+            }
+          }
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เล่นส่วนขา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "39eaeae9-bf50-4753-93bf-3a0c5ec74029",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าเล่นขามีอะไรบ้าง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b8f2b571-76a7-42b1-bf88-a6c6ce3ffb04",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าเล่นขาด้านหลัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aed2169f-d65e-4f0c-a713-08fe38fd6ac7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าเล่นขาด้านหน้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de789db3-999c-4dd0-a8b2-72e4893913cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หน้าขา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cb280378-d637-42c3-8cb3-7db0a35ca293",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หลังขา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5565d769-7f6c-4752-ba1f-cdfd3fbdb04a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เล่นน่อง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8f70e362-d792-4f55-819f-bec14dd70d12",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "น่อง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa4a0b1d-d410-4541-ae29-9a0f5d8bc3a7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เล่นขา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c71c3b84-1f90-4c54-a289-71e1e2ed056e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ขา",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "826ab980-8626-4ddd-97e8-beb7b59c6a9c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

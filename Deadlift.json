@@ -1,0 +1,77 @@
+{
+  "id": "acb71f5e-bbe8-41cd-a764-2eeeccd4cad1",
+  "name": "Deadlift",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/deadlift-kreuzheben.webp?alt=media&token=99c8ddc0-6a7e-441b-bc32-d1a6e4eaff4a"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการทำ Deadlift ✅\n\n1.การเตรียม\n\nวางบาร์เบลบนพื้น ขาอยู่ห่างกันประมาณช่วงไหล่\n\nเท้าวางตรงหรือปลายเท้าเฉียงเล็กน้อย\n\nยืนใกล้บาร์ โดยให้บาร์อยู่เหนือกลางเท้า\n\n2.การจับบาร์และจัดท่า\n\nก้มลงโดยงอสะโพกและเข่าไปพร้อมกัน\n\nจับบาร์กว้างกว่าหัวไหล่เล็กน้อย (อาจใช้ Overhand grip หรือ Mixed grip)\n\nหลังตรง อกผาย ไหล่เหนือบาร์เล็กน้อย\n\nสายตามองไปข้างหน้า ไม่ก้มมองพื้น\n\nการยกบาร์ (Up phase)\n\n3.เกร็งหน้าท้องและหลัง\n\nดันส้นเท้าออกแรงขึ้น ยืดเข่าและสะโพกพร้อมกัน\n\nรักษาบาร์ให้ใกล้ลำตัวที่สุด (เลียบหน้าแข้งขึ้นมา)\n\nเมื่อยืนตรงเต็มที่ ให้สะโพกและเข่าเหยียดตรง ไหล่เปิด อกผาย\n\n4.การวางบาร์ (Down phase)\n\nดันสะโพกไปด้านหลัง ลดบาร์ลงช้า ๆ โดยให้หลังตรง\n\nเมื่อลดบาร์ถึงระดับเข่าแล้ว ค่อยงอเข่าเพื่อวางบาร์ลงพื้น\n\nกลับสู่ท่าเริ่มต้น"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.หลังโก่ง (Round back): เป็นสาเหตุหลักที่ทำให้เจ็บหลัง → ต้องรักษาหลังตรงตลอดการยก\n\n2.ยกด้วยหลังอย่างเดียว: ท่าที่ถูกต้องคือใช้แรงจาก สะโพกและขา ไม่ใช่หลังล้วน ๆ\n\n3.ดึงบาร์ออกจากพื้นเร็วเกินไป: เสี่ยงบาดเจ็บเอ็นและหลัง → ควรคุมจังหวะ\n\n4.บาร์ห่างจากตัว: ถ้าปล่อยให้บาร์ออกไปข้างหน้าจะทำให้เสียสมดุลและกดหลังล่างมากเกินไป\n\n5.ยกน้ำหนักเกินกำลัง: ควรเริ่มจากน้ำหนักเบาเพื่อฝึกเทคนิคก่อน\n\n6.ใช้สายตาผิด: มองลงมากเกินไป → หลังโก่ง, มองขึ้นมากเกินไป → คอเกร็ง ควรมองตรงด้านหน้าในระดับธรรมชาติ\n\n7.ไม่วอร์มอัพ: เพิ่มโอกาสบาดเจ็บที่เอ็นร้อยหวายและหลังล่าง"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Deadlift"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Deadlift",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "71486e25-28dd-4b4d-a31f-469a11e4faa7",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

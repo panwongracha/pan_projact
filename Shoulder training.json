@@ -1,0 +1,242 @@
+{
+  "id": "dc3083f3-3020-40b6-86c7-73b48dab7db5",
+  "name": "Shoulder training",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "custom_payload",
+          "platform": "line",
+          "condition": "",
+          "payload": {
+            "line": {
+              "altText": "กล้ามเนื้อหัวไหล่ส่วนหลัง",
+              "type": "flex",
+              "contents": {
+                "type": "carousel",
+                "contents": [
+                  {
+                    "footer": {
+                      "layout": "vertical",
+                      "spacing": "sm",
+                      "type": "box",
+                      "contents": [
+                        {
+                          "type": "button",
+                          "action": {
+                            "label": "วิธีฝึก",
+                            "text": "Dumbbell Shoulder Press",
+                            "type": "message"
+                          },
+                          "style": "primary"
+                        }
+                      ]
+                    },
+                    "hero": {
+                      "type": "image",
+                      "aspectRatio": "20:13",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B9%88%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2.webp?alt=media&token=ec9a0a1c-d7ed-46f4-a47b-5fbad2836ab7",
+                      "size": "full",
+                      "aspectMode": "cover"
+                    },
+                    "body": {
+                      "layout": "vertical",
+                      "type": "box",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "Dumbbell Shoulder Press",
+                          "size": "xl",
+                          "weight": "bold"
+                        },
+                        {
+                          "wrap": true,
+                          "type": "text",
+                          "color": "#666666",
+                          "size": "sm",
+                          "text": "กล้ามเนื้อหัวไหล่ส่วนหน้า"
+                        }
+                      ]
+                    },
+                    "type": "bubble"
+                  },
+                  {
+                    "hero": {
+                      "type": "image",
+                      "size": "full",
+                      "aspectRatio": "20:13",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/seitenheben-kurzhanteln.webp?alt=media&token=c0809b9c-2fe3-48ad-940e-ca01534cb33b",
+                      "aspectMode": "cover"
+                    },
+                    "body": {
+                      "contents": [
+                        {
+                          "type": "text",
+                          "size": "xl",
+                          "text": "Lateral Raise",
+                          "weight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "size": "sm",
+                          "color": "#666666",
+                          "wrap": true,
+                          "text": "กล้ามเนื้อหัวไหล่ส่วนกลาง"
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical"
+                    },
+                    "type": "bubble",
+                    "footer": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "action": {
+                            "label": "วิธีฝึก",
+                            "type": "message",
+                            "text": "Lateral Raise"
+                          },
+                          "type": "button"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "bubble",
+                    "hero": {
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B9%84%E0%B8%AB%E0%B8%A5%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87.webp?alt=media&token=a2398ce1-9b42-4799-8394-467a2c4f02e5",
+                      "size": "full",
+                      "aspectRatio": "20:13",
+                      "aspectMode": "cover",
+                      "type": "image"
+                    },
+                    "footer": {
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "type": "button",
+                          "action": {
+                            "type": "message",
+                            "label": "วิธีฝึก",
+                            "text": "Dips"
+                          }
+                        }
+                      ],
+                      "layout": "vertical",
+                      "type": "box"
+                    },
+                    "body": {
+                      "contents": [
+                        {
+                          "text": "Band Reverse Fly",
+                          "type": "text",
+                          "weight": "bold",
+                          "size": "xl"
+                        },
+                        {
+                          "color": "#666666",
+                          "wrap": true,
+                          "type": "text",
+                          "text": "กล้ามเนื้อหัวไหล่ส่วนหลัง",
+                          "size": "sm"
+                        }
+                      ],
+                      "layout": "vertical",
+                      "type": "box"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ท่าฝึกกล้ามเนื้อ หัวไหล่ทั้งหมด"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กล้ามเนื้อหัวไหล่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "af40d817-33cb-4e29-9600-e123337b38d5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หัวไหล่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2fbf36b6-a597-41a5-90f8-bb084ee302dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าเล่นไหล่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9500b531-3606-4e0f-b0c8-ca1060efd501",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไหล่",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8f73940d-7125-4995-a2e3-a1c309765e7f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

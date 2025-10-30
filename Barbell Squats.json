@@ -1,0 +1,77 @@
+{
+  "id": "ea2ade96-54db-498f-803a-dc58d0e9efad",
+  "name": "Barbell Squats",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%82%E0%B8%B2.webp?alt=media&token=1e8fff53-fc83-45b5-9c05-96b391134693"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการทำ Barbell Squat✅\n\n1.การเตรียม\n\nวางบาร์เบลบนชั้นแร็ก (Rack) ระดับประมาณช่วงอก–ไหล่\n\nยืนใต้บาร์ ให้บาร์วางบนกล้ามเนื้อไหล่ด้านหลัง (ไม่ใช่บนคอ)\n\nจับบาร์ให้มั่น ควรจับกว้างกว่าหัวไหล่เล็กน้อย\n\nยกบาร์ออกจากแร็ก ก้าวถอยหลัง 1–2 ก้าว ยืนกว้างกว่าหัวไหล่เล็กน้อย\n\n2.การสควอตลง (Down phase)\n\nเกร็งหน้าท้อง หลังตรง อกผาย\n\nงอเข่าและสะโพกพร้อมกัน ค่อย ๆ ลดตัวลง\n\nให้สะโพกไปด้านหลัง เหมือนนั่งเก้าอี้\n\nเข่าต้องอยู่ในแนวเดียวกับปลายเท้า (ไม่หุบเข้า)\n\nลดตัวลงจนต้นขาขนานกับพื้น (หรือมากกว่านั้นถ้าทำได้โดยไม่เจ็บ)\n\n3.การยืนขึ้น (Up phase)\n\nออกแรงดันจากส้นเท้า ดันสะโพกและตัวขึ้น\n\nรักษาหลังตรง ไม่โก่ง ไม่แอ่น\n\nกลับมายืนตรงตามท่าเริ่มต้น"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.บาร์วางผิดตำแหน่ง: อย่าวางบาร์บนต้นคอ → อาจทำให้เจ็บและบาดเจ็บกระดูกสันหลัง ควรให้บาร์อยู่บนไหล่/กล้ามเนื้อ Trapezius\n\n2.หลังโก่งหรือแอ่นเกินไป: ควรรักษาหลังตรงตลอดเวลา\n\n3.เข่าหุบเข้าด้านใน (Knee valgus): เสี่ยงเจ็บเข่า ต้องคุมให้เข่าออกไปในแนวเดียวกับปลายเท้า\n\n4.ยกน้ำหนักเกินกำลัง: ควรเริ่มจากน้ำหนักเบา ฝึกเทคนิคให้ถูกต้องก่อน\n\n5.มองลงพื้นตลอด: ทำให้เสียสมดุล ควรมองตรงไปด้านหน้า\n\n6.ไม่วอร์มอัพก่อน: เพิ่มความเสี่ยงการบาดเจ็บที่เอ็นและข้อ\n\n7.ไม่ใช้ Spotter หรือ Safety Rack: เสี่ยงอันตรายถ้ายกไม่ไหว"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Barbell Squats"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Barbell Squats",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87061c27-c9a5-42ec-954c-ae71ba9da9b9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

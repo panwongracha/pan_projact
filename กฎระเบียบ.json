@@ -1,0 +1,109 @@
+{
+  "id": "e420a678-a8be-4ce7-aa06-e3e664e365a9",
+  "name": "กฎระเบียบ",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/fit%20kucsc.jpg?alt=media&token=013ab4af-c02b-43e9-a64d-66b58d290a9f"
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "กฎระเบียบในการใช้งาน\n-ห้ามใส่รองเท้าแตะในการเข้าใช้งาน\n-ห้ามนำอาหารเข้ามารับประทานยกเว้นน้ำดื่ม\n-ห้ามถอดเสื้อขณะใช้บริการ\n-ท่านใดที่นำขวดน้ำดื่มมากรุณานำกลับหรือนำไปทิ้งถังขยะด้วย\n-ลงชื่อทุกครั้งที่เข้าใช้บริการ\n-ท่านใดไม่มีรายชื่อจะเชิญออกจากฟิตเนสทันที\n-กรุณาเก็บอุปกรณ์หรือแผ่นน้ำหนักหลังใช้งานเสร็จ                                                                                        -ห้ามน้ำสัตว์เลี้ยงเข้ามา"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "การเเนะนำการใช้ฟิตเนสทั่วไป",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "682875fc-b305-4b9b-937a-783c59d3d255",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กฎการใช้งาน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38671849-2af4-49c7-9b15-9824a3df8a06",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ระเบียบ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "80ddfe20-dcf9-481e-b1df-03f5e7bbcbb2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ระเบียบการใช้งาน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae4db6e1-01f7-46d0-9efd-dac6225a4fe3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กฎระเบียบ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0ae70405-92d0-46c2-9fd1-36a0a85fc52a",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

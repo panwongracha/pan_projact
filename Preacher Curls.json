@@ -1,0 +1,77 @@
+{
+  "id": "8a93b345-95a0-4d3b-aabb-da1009d794d0",
+  "name": "Preacher Curls",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B9%80%E0%B9%80%E0%B8%82%E0%B8%993.webp?alt=media&token=cb1e7e46-02fe-4970-b323-7d22d9c688ec"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการฝึก Preacher Curls✅\n\n1.การเตรียมตัว\n\nนั่งบนเก้าอี้ของเครื่อง Preacher Bench หรือใช้ม้านั่ง Preacher\n\nวางต้นแขนด้านหน้าบนเบาะรอง (arm pad) ให้แนบสนิททั้งสองข้าง\n\nถือบาร์เบล (EZ bar / straight bar) หรือดัมบbell์ ด้วยท่า หงายฝ่ามือ (supinated grip)\n\nเริ่มจากแขนเหยียดเกือบสุด แต่ไม่ล็อกข้อศอก\n\n2.การยกน้ำหนัก (Curl phase)\n\nหายใจออก พร้อมงอศอก ยกบาร์ขึ้นช้า ๆ\n\nโฟกัสให้กล้ามเนื้อไบเซ็ปส์หดตัว\n\nยกจนบาร์อยู่ระดับใกล้หัวไหล่\n\n3.การลดน้ำหนัก (Lowering phase)\n\nหายใจเข้า แล้วค่อย ๆ ลดบาร์ลงช้า ๆ\n\nเหยียดแขนเกือบสุด แต่ไม่ล็อกข้อศอก เพื่อรักษาแรงตึงที่กล้ามเนื้อ"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.อย่าเหยียดแขนสุดหรือล็อกข้อศอก เพราะจะกดแรงเกินไปที่ข้อศอก\n\n2.อย่าใช้แรงเหวี่ยงหรือแกว่งหลัง ท่านี้ควรเน้นการเกร็งกล้ามเนื้อไบเซ็ปส์อย่างเดียว\n\n3.ควบคุมน้ำหนักตอนลดลง ไม่ปล่อยให้ตกเร็ว เพราะจะเสี่ยงบาดเจ็บ\n\n4.เลือกน้ำหนักที่เหมาะสม ไม่หนักเกินไปจนเสียฟอร์ม\n\n5.ตั้งท่าต้นแขนแนบกับเบาะตลอดเวลา เพื่อไม่ให้กล้ามเนื้อส่วนอื่นช่วยทำงาน"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Preacher Curls"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Preacher",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c3ac913-5ab0-48ca-8ff1-6db235ad6b43",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

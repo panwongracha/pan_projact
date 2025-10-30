@@ -1,0 +1,178 @@
+{
+  "id": "1eb93a25-897e-4dbc-a8b9-a985718fa7f1",
+  "name": "Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ยินดีต้อนรับครับ ฉันคือ  Chatbot แนะนำอุปกรณ์ออกกำลังกายเบื้องต้นใน\nมหาวิทยาลัยเกษตรศาสตร์วิทยาเขต\nเฉลิมพระเกียรติสกลนคร อาคาร 14\nChatbot ที่ถูกออกแบบมาเพื่อการ\nแนะนำเครื่องออกกำลังกายเบื้องต้น\nฉันสามารถแนะนำเครื่องออกกำลังกาย\nเบื้องต้น เเละ ท่ายืดกล้ามเนื้อก่อนเล่น\nถ้าคุณไม่รู้จะเริ่มจากตรงไหนแค่บอก\nฉันได้เลยครับ🙏🏻",
+            "สวัสดีครับ มีอะไรให้ช่วยเหลือไหมครับ"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Hi",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a4925bf-e5e8-44c1-860b-046d9109bf24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สวัสดี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea79f87c-47eb-4b96-9fa7-97fb0052f744",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หวัดดีจ้ะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f8943b76-1c6a-49cf-85ea-964290378f61",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สวัสดีน้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "755bd6f7-2a95-4922-bb59-c451e8705d18",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ว่าไง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f879193b-cb42-4c4d-93a7-18598443cda0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สวีดัส",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4695df98-c2df-4c24-b251-e1bbce243f75",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "สวัสดีจ้ะ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "790bcab4-44e3-47e7-9d8a-3f8f0698d117",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หวัดดีจ้า",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9b1aa539-a850-4490-a385-0b27e6e5cdf8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ไม่เจอกันตั้งนาน",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dadff88a-f5f3-4aec-abed-7df5a3ac0c31",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ขอทักทาย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e16c7c16-027a-4a85-a4fd-bececc5bf98b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หวัดดี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c00ffc00-eb0b-48ed-a941-3eb7311181fe",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,254 @@
+{
+  "id": "b29885fe-be75-4e90-8b3c-6219743c7a42",
+  "name": "Abs workout",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "custom_payload",
+          "platform": "line",
+          "condition": "",
+          "payload": {
+            "line": {
+              "contents": {
+                "type": "carousel",
+                "contents": [
+                  {
+                    "body": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "weight": "bold",
+                          "type": "text",
+                          "size": "xl",
+                          "text": "Abdominal Crunch"
+                        },
+                        {
+                          "type": "text",
+                          "size": "sm",
+                          "text": "กล้ามเนื้อท้อง",
+                          "color": "#666666",
+                          "wrap": true
+                        }
+                      ]
+                    },
+                    "type": "bubble",
+                    "hero": {
+                      "aspectRatio": "20:13",
+                      "type": "image",
+                      "size": "full",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%871.webp?alt=media&token=e5385a44-81e1-4f66-a022-8a5ed330b7e4",
+                      "aspectMode": "cover"
+                    },
+                    "footer": {
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "type": "button",
+                          "action": {
+                            "text": "Abdominal Crunch",
+                            "label": "วิธีการฝึก",
+                            "type": "message"
+                          }
+                        }
+                      ],
+                      "type": "box",
+                      "spacing": "sm"
+                    }
+                  },
+                  {
+                    "hero": {
+                      "aspectMode": "cover",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%872.webp?alt=media&token=d7098ff0-50b8-43ef-a355-68fb8cb038b8",
+                      "size": "full",
+                      "aspectRatio": "20:13",
+                      "type": "image"
+                    },
+                    "body": {
+                      "layout": "vertical",
+                      "type": "box",
+                      "contents": [
+                        {
+                          "weight": "bold",
+                          "type": "text",
+                          "text": "Knee Raise",
+                          "size": "xl"
+                        },
+                        {
+                          "color": "#666666",
+                          "size": "sm",
+                          "type": "text",
+                          "wrap": true,
+                          "text": "กล้ามเนื้อท้อง"
+                        }
+                      ]
+                    },
+                    "type": "bubble",
+                    "footer": {
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "action": {
+                            "text": "Knee Raise",
+                            "label": "วิธีการฝึก",
+                            "type": "message"
+                          },
+                          "type": "button"
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical",
+                      "spacing": "sm"
+                    }
+                  },
+                  {
+                    "footer": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "style": "primary",
+                          "action": {
+                            "label": "วิธีการฝึก",
+                            "type": "message",
+                            "text": "Decline Sit-Ups"
+                          },
+                          "type": "button"
+                        }
+                      ],
+                      "spacing": "sm"
+                    },
+                    "body": {
+                      "layout": "vertical",
+                      "type": "box",
+                      "contents": [
+                        {
+                          "text": "Decline Sit-Ups",
+                          "size": "xl",
+                          "weight": "bold",
+                          "type": "text"
+                        },
+                        {
+                          "wrap": true,
+                          "type": "text",
+                          "text": "กล้ามเนื้อท้อง",
+                          "color": "#666666",
+                          "size": "sm"
+                        }
+                      ]
+                    },
+                    "type": "bubble",
+                    "hero": {
+                      "aspectMode": "cover",
+                      "type": "image",
+                      "aspectRatio": "20:13",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%873.webp?alt=media&token=1275cebf-5380-4100-b2a1-98e56b549747",
+                      "size": "full"
+                    }
+                  }
+                ]
+              },
+              "type": "flex",
+              "altText": "กล้ามเนื้อท้อง"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ท่าฝึกกล้ามเนื้อท้อง ทั้งหมด"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เเนะนำท่าเล่นท้องหน่อย",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8fe852fe-b2bd-42aa-a101-6c292a5a0b78",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กล้ามเนื้อท้อง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6e8e5d73-2548-44df-96b6-8750296d2e85",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ส่วนท้อง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a942bfc7-27b5-4d56-b9a2-8d7c96712954",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เล่นท้องมีท่าไหนบ้าง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "133b406a-be2e-451d-9571-35228a0e818a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าเล่นท้อง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4db5336-2120-44ba-b180-78161619e48f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

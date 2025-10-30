@@ -1,0 +1,77 @@
+{
+  "id": "27f21260-a94d-4edf-b25e-8d705f22c1e3",
+  "name": "Upright Stationary Bike",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%84%E0%B8%B2%E0%B8%94%E0%B8%B4%E0%B9%82%E0%B8%AD2.webp?alt=media&token=dd9fd3bc-8962-4734-a770-446e512be9ef"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการใช้เครื่อง Upright Stationary Bike (จักรยานออกกำลังกายแบบนั่งตรง) ✅\n\n1.การเตรียมตัว\n\nปรับ ความสูงเบาะนั่ง ให้พอดี: เมื่อเหยียดขาลงต่ำสุด หัวเข่ายังงอเล็กน้อย (ไม่ตึงจนเกินไป)\n\nปรับ แฮนด์ ให้พอดี ไม่ต่ำหรือสูงเกินไป เพื่อไม่ให้ปวดหลังหรือไหล่\n\n2.ท่าการปั่น\n\nนั่งบนเบาะ หลังตรง ไหล่ผ่อนคลาย\n\nมือจับแฮนด์เบา ๆ เพื่อช่วยพยุง ไม่กดน้ำหนักมากเกินไป\n\nวางเท้าบนบันไดให้เต็มฝ่าเท้า (สายรัดรองเท้าช่วยให้มั่นคง)\n\nปั่นด้วยจังหวะสม่ำเสมอ ใช้แรงจากต้นขาและสะโพก ไม่กดด้วยเข่าเพียงอย่างเดียว\n\nควบคุมรอบปั่นให้เหมาะสม (ประมาณ 60–90 รอบต่อนาที สำหรับการคาร์ดิโอทั่วไป)\n\n3.การจบเซสชัน\n\nค่อย ๆ ลดความเร็วลงจนหยุด\n\nยืดกล้ามเนื้อขาและสะโพกหลังการปั่นทุกครั้ง"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.ท่านั่ง: อย่าโน้มตัวไปข้างหน้ามากเกินไป อาจทำให้ปวดหลังหรือคอ\n\n2.เบาะนั่ง: หากเบาะต่ำเกินไปจะทำให้เข่าเคลื่อนไหวผิดมุม เสี่ยงเจ็บเข่า\n\n3.การปั่น: ไม่ควรยกส้นเท้าหรือปั่นด้วยปลายเท้า ควรใช้ฝ่าเท้าเต็ม ๆ\n\n4.แรงต้าน: ไม่ควรตั้งแรงต้านสูงเกินไปจนปั่นไม่ไหว เพราะจะทำให้กล้ามเนื้อและข้อเข่าบาดเจ็บ\n\n5.สุขภาพ: ผู้ที่มีอาการปวดหลังส่วนล่างหรือเข่า ควรเริ่มเบา ๆ และปรึกษาแพทย์ก่อน\n\n6.ความเร็วสูงเกินไป: อาจทำให้เสียการทรงตัว หรือบาดเจ็บจากแรงกดที่ข้อเข่า"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Upright Stationary Bike"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Upright Stationary Bike",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e97bc4f8-eb40-41f3-9af6-558dfab2d7d1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

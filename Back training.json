@@ -1,0 +1,314 @@
+{
+  "id": "3e0bc409-6d15-4de3-a988-6921e45301fe",
+  "name": "Back training",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "custom_payload",
+          "platform": "line",
+          "condition": "",
+          "payload": {
+            "line": {
+              "contents": {
+                "type": "carousel",
+                "contents": [
+                  {
+                    "hero": {
+                      "size": "full",
+                      "aspectRatio": "20:13",
+                      "type": "image",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/lat-pulldown-maschine.webp?alt=media&token=0f8e474a-c2d8-4335-ad82-3c72073816af",
+                      "aspectMode": "cover"
+                    },
+                    "footer": {
+                      "type": "box",
+                      "spacing": "sm",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "button",
+                          "action": {
+                            "label": "วิธีฝึก",
+                            "text": "Lat Pulldown on the Machine",
+                            "type": "message"
+                          },
+                          "style": "primary"
+                        }
+                      ]
+                    },
+                    "body": {
+                      "layout": "vertical",
+                      "type": "box",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "weight": "bold",
+                          "size": "xl",
+                          "text": "Lat Pulldown on the Machine"
+                        },
+                        {
+                          "type": "text",
+                          "size": "sm",
+                          "text": "กล้ามเนื้อหลัง",
+                          "wrap": true,
+                          "color": "#666666"
+                        }
+                      ]
+                    },
+                    "type": "bubble"
+                  },
+                  {
+                    "type": "bubble",
+                    "footer": {
+                      "spacing": "sm",
+                      "contents": [
+                        {
+                          "action": {
+                            "text": "Seated Back Extension",
+                            "label": "วิธีฝึก",
+                            "type": "message"
+                          },
+                          "type": "button",
+                          "style": "primary"
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical"
+                    },
+                    "hero": {
+                      "aspectRatio": "20:13",
+                      "size": "full",
+                      "type": "image",
+                      "aspectMode": "cover",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/rueckenstrecken.webp?alt=media&token=a113666d-6ce1-4eeb-9e22-e61e5804871a"
+                    },
+                    "body": {
+                      "contents": [
+                        {
+                          "weight": "bold",
+                          "type": "text",
+                          "text": "Seated Back Extension",
+                          "size": "xl"
+                        },
+                        {
+                          "type": "text",
+                          "text": "กล้ามเนื้อหลัง",
+                          "color": "#666666",
+                          "size": "sm",
+                          "wrap": true
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical"
+                    }
+                  },
+                  {
+                    "footer": {
+                      "contents": [
+                        {
+                          "action": {
+                            "type": "message",
+                            "text": "One Arm Dumbbell Row",
+                            "label": "วิธีฝึก"
+                          },
+                          "style": "primary",
+                          "type": "button"
+                        }
+                      ],
+                      "layout": "vertical",
+                      "spacing": "sm",
+                      "type": "box"
+                    },
+                    "type": "bubble",
+                    "body": {
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "One Arm Dumbbell Row",
+                          "weight": "bold",
+                          "size": "xl"
+                        },
+                        {
+                          "size": "sm",
+                          "type": "text",
+                          "text": "กล้ามเนื้อหลัง",
+                          "color": "#666666",
+                          "wrap": true
+                        }
+                      ],
+                      "type": "box",
+                      "layout": "vertical"
+                    },
+                    "hero": {
+                      "size": "full",
+                      "aspectMode": "cover",
+                      "type": "image",
+                      "url": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/rudern-kurzhantel.webp?alt=media&token=95214148-b94f-4aaf-863f-0f7fe465403a",
+                      "aspectRatio": "20:13"
+                    }
+                  }
+                ]
+              },
+              "type": "flex",
+              "altText": "กล้ามเนื้อหลัง"
+            }
+          }
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "ท่าฝึกกล้ามเนื้อหลังทั้งหมด"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "กล้ามเนื้อหลัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "aecb1281-d83e-4f7e-9496-1f44b18a63e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าเล่นปีกมีอะไรบ้าง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f2a208e3-18d1-41f8-aef1-60b03a192929",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าหลัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9e7f62d8-523d-4da4-aa4e-f76c9b93aee8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "เล่นหลังท่าไหนดี",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "94788ddf-42e6-4d17-808f-b0fbac2d2667",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าเล่นปีก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93c0a4ae-5e5d-48af-abbb-bf6893fbc484",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ท่าเล่นหลัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7d6f2698-4653-402c-ab82-0c65584bf973",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ส่วนปีก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7f4ab864-1e10-4bdf-b245-e62605190d74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ส่วนหลัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "026f827a-2f3d-4ab3-a888-1a375167cea9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ปีก",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a382e7c9-63ba-4316-a2d1-8b907a1a83f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "หลัง",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dcebc223-2f4e-4db0-afe1-1422ae1c6883",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

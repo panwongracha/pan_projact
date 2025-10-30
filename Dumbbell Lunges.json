@@ -1,0 +1,77 @@
+{
+  "id": "92dcf481-a6f5-49fd-bd44-a473e06758c4",
+  "name": "Dumbbell Lunges",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "line": true
+      },
+      "messages": [
+        {
+          "type": "image",
+          "platform": "line",
+          "condition": "",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/kucscfit.firebasestorage.app/o/%E0%B8%82%E0%B8%B22.webp?alt=media&token=9bd529b9-29ae-4c07-8298-4d9f7e5ecff8"
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "วิธีการทำ Dumbbell Lunges✅\n\n1.การเตรียม\n\nถือดัมบ์เบลหนึ่งข้างในแต่ละมือ แขนเหยียดตรงแนบลำตัว\n\nยืนหลังตรง เท้าห่างกันประมาณสะโพก\n\n2.การก้าวและลดตัว (Down phase)\n\nก้าวขาไปข้างหน้าหนึ่งก้าวยาวพอสมควร\n\nลดลำตัวลง โดยงอเข่าทั้งสองข้าง:\n\nเข่าหน้าตั้งฉาก (ประมาณ 90°) ไม่ล้ำปลายเท้า\n\nเข่าหลังใกล้พื้นแต่ไม่แตะพื้น\n\nหลังตรง หน้าอกเปิด สายตามองตรงไปข้างหน้า\n\n3.การยืนขึ้น (Up phase)\n\nออกแรงดันจาก ส้นเท้าหน้า เพื่อยืนกลับขึ้น\n\nก้าวกลับมาท่าเริ่มต้น หรือก้าวต่อด้วยขาอีกข้าง"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "line",
+          "condition": "",
+          "speech": [
+            "ข้อควรระวัง⚠️\n\n1.ก้าวสั้นเกินไป: ทำให้เข่าหน้าเลยปลายเท้า เสี่ยงเจ็บเข่า\n\n2.ก้าวยาวเกินไป: ทำให้เสียสมดุลและกดแรงที่สะโพกมากเกินไป\n\n3.เข่าหุบเข้าด้านใน (Knee valgus): ต้องคุมให้เข่าไปในแนวเดียวกับปลายเท้า\n\n4.ตัวเอนไปข้างหน้าเกิน: จะทำให้ปวดหลัง → ต้องหลังตรงตลอดเวลา\n\n5.ดัมบ์เบลแกว่ง: จับดัมบ์เบลให้นิ่งแนบลำตัว ไม่เหวี่ยงไปมา\n\n6.เลือกน้ำหนักมากเกินไป: ควรเริ่มด้วยน้ำหนักเบาเพื่อควบคุมท่าที่ถูกต้องก่อน\n\n7.ผู้ที่มีอาการปวดเข่า: ควรเลี่ยงหรือใช้ Step-back lunge/Reverse lunge ที่กดเข่าน้อยกว่า"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Dumbbell Lunges"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Lunges",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b75abaf9-f577-4960-8f38-5c64248b4a3d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
